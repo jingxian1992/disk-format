@@ -1,0 +1,242 @@
+
+10M 硬盘编码表
+#define HD0_CYL				20
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			20
+
+15M 硬盘编码表
+#define HD0_CYL				30
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			30
+
+20M 硬盘编码表
+#define HD0_CYL				40
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			40
+
+25M 硬盘编码表
+#define HD0_CYL				50
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			50
+
+30M 硬盘编码表
+#define HD0_CYL				60
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			60
+
+35M 硬盘编码表
+#define HD0_CYL				71
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			71
+
+40M 硬盘编码表
+#define HD0_CYL				81
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			63
+
+45M 硬盘编码表
+#define HD0_CYL				91
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			91
+
+50M 硬盘编码表
+#define HD0_CYL				101
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			101
+
+55M 硬盘编码表
+#define HD0_CYL				111
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			111
+
+60M 硬盘编码表
+#define HD0_CYL				121
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			121
+
+65M 硬盘编码表
+#define HD0_CYL				132
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			132
+
+70M 硬盘编码表
+#define HD0_CYL				142
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			142
+
+75M 硬盘编码表
+#define HD0_CYL				152
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			152
+
+80M 硬盘编码表
+#define HD0_CYL				162
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			162
+
+85M 硬盘编码表
+#define HD0_CYL				172
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			172
+
+90M 硬盘编码表
+#define HD0_CYL				182
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			182
+
+95M 硬盘编码表
+#define HD0_CYL				193
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			193
+
+100M 硬盘编码表
+#define HD0_CYL				203
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			203
+
+105M 硬盘编码表
+#define HD0_CYL				213
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			213
+
+110M 硬盘编码表
+#define HD0_CYL				223
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			223
+
+115M 硬盘编码表
+#define HD0_CYL				233
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			233
+
+120M 硬盘编码表
+#define HD0_CYL				243
+#define HD0_HEAD			16
+#define HD0_SECTOR			63
+#define HD0_WPCOM			65535
+#define HD0_CTL				0xC8
+#define HD0_LZONE			243
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+M 硬盘编码表
+#define HD0_CYL
+#define HD0_HEAD
+#define HD0_SECTOR
+#define HD0_WPCOM
+#define HD0_LZONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,1607 @@
+
+分配公共符号
+公共符号            大小              文件
+
+recalibrate         0x4               Link/hd.o
+INIT_C_CC           0x11              Link/exit.o
+hd_timeout          0x4               Link/hd.o
+startup_time        0x4               Link/sched.o
+start_buffer        0x4               Link/main.o
+errno               0x4               Link/errno.o
+reset               0x4               Link/hd.o
+hash_table          0x4cc             Link/buffer.o
+fg_console          0x4               Link/console.o
+shell               0x2020            Link/exit.o
+___strtok           0x4               Link/main.o
+do_hd               0x4               Link/hd.o
+gdt                 0x4               Link/main.o
+wait_for_request    0x4               Link/ll_rw_blk.o
+hd_info             0x20              Link/main.o
+NR_HD               0x4               Link/hd.o
+video_port_val      0x2               Link/console.o
+video_mem_term      0x4               Link/console.o
+sys_load_flags      0x4               Link/hd.o
+jiffies_offset      0x4               Link/sched.o
+last_pid            0x4               Link/fork.o
+next_timer          0x4               Link/sched.o
+tty_table           0x2000            Link/tty_io.o
+video_num_columns   0x4               Link/console.o
+first_part_blockno  0x4               Link/hd.o
+HIGH_MEMORY         0x4               Link/memory.o
+callable            0x4               Link/hd.o
+tty_queues          0x79e0            Link/tty_io.o
+ACC_MODE_INFO       0x5               Link/file_table.o
+first_part_sectno   0x4               Link/hd.o
+request             0x480             Link/ll_rw_blk.o
+current             0x4               Link/sched.o
+video_mem_base      0x4               Link/console.o
+_ctmp               0x1               Link/ctype.o
+hd                  0x50              Link/hd.o
+task                0x100             Link/sched.o
+NR_CONSOLES         0x4               Link/console.o
+pg_dir              0x4               Link/main.o
+vc_cons             0x160             Link/console.o
+jiffies             0x4               Link/sched.o
+idt                 0x4               Link/main.o
+super_block         0x360             Link/main.o
+video_port_reg      0x2               Link/console.o
+blk_dev             0x38              Link/ll_rw_blk.o
+last_task_used_math
+                    0x4               Link/sched.o
+video_num_lines     0x4               Link/console.o
+thisname            0x200             Link/main.o
+hd_sizes            0x28              Link/hd.o
+translations        0x4               Link/console.o
+blk_size            0x1c              Link/ll_rw_blk.o
+file_table          0x400             Link/main.o
+mem_map             0x3d00            Link/memory.o
+timer_list          0x300             Link/sched.o
+video_size_row      0x4               Link/console.o
+
+舍弃的输入节
+
+ .group         0x0000000000000000        0x8 Link/main.o
+ .group         0x0000000000000000        0x8 Link/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/main.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/ctype.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/errno.o
+ .group         0x0000000000000000        0x8 Link/io.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/io.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/io.o
+ .group         0x0000000000000000        0x8 Link/malloc.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/malloc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/malloc.o
+ .group         0x0000000000000000        0x8 Link/segment.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/segment.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/segment.o
+ .group         0x0000000000000000        0x8 Link/string.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/string.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/string.o
+ .group         0x0000000000000000        0x8 Link/system.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/system.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/system.o
+ .group         0x0000000000000000        0x8 Link/write.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/write.o
+ .group         0x0000000000000000        0x8 Link/vsprintf.o
+ .group         0x0000000000000000        0x8 Link/vsprintf.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/vsprintf.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/vsprintf.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/vsprintf.o
+ .group         0x0000000000000000        0x8 Link/printk.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/printk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/printk.o
+ .group         0x0000000000000000        0x8 Link/panic.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/panic.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/panic.o
+ .group         0x0000000000000000        0x8 Link/traps.o
+ .group         0x0000000000000000        0x8 Link/traps.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/traps.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/traps.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/traps.o
+ .group         0x0000000000000000        0x8 Link/sched.o
+ .group         0x0000000000000000        0x8 Link/sched.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/sched.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/sched.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/sched.o
+ .group         0x0000000000000000        0x8 Link/exit.o
+ .group         0x0000000000000000        0x8 Link/exit.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/exit.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/exit.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/exit.o
+ .group         0x0000000000000000        0x8 Link/mktime.o
+ .group         0x0000000000000000        0x8 Link/mktime.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 Link/mktime.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/mktime.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/mktime.o
+ .group         0x0000000000000000        0x8 Link/fork.o
+ .group         0x0000000000000000        0x8 Link/fork.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/fork.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/fork.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/fork.o
+ .group         0x0000000000000000        0x8 Link/signal.o
+ .group         0x0000000000000000        0x8 Link/signal.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/signal.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/signal.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/signal.o
+ .group         0x0000000000000000        0x8 Link/sys.o
+ .group         0x0000000000000000        0x8 Link/sys.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/sys.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/sys.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/sys.o
+ .group         0x0000000000000000        0x8 Link/api01.o
+ .group         0x0000000000000000        0x8 Link/api01.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/api01.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/api01.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/api01.o
+ .group         0x0000000000000000        0x8 Link/shell.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/shell.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/shell.o
+ .group         0x0000000000000000        0x8 Link/hd.o
+ .group         0x0000000000000000        0x8 Link/hd.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/hd.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/hd.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/hd.o
+ .group         0x0000000000000000        0x8 Link/ll_rw_blk.o
+ .group         0x0000000000000000        0x8 Link/ll_rw_blk.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/ll_rw_blk.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/ll_rw_blk.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/ll_rw_blk.o
+ .group         0x0000000000000000        0x8 Link/console.o
+ .group         0x0000000000000000        0x8 Link/console.o
+ .group         0x0000000000000000        0x8 Link/console.o
+ .group         0x0000000000000000        0x8 Link/console.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/console.o
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000000000        0x4 Link/console.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/console.o
+ .group         0x0000000000000000        0x8 Link/tty_io.o
+ .group         0x0000000000000000        0x8 Link/tty_io.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/tty_io.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/tty_io.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/tty_io.o
+ .group         0x0000000000000000        0x8 Link/serial.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/serial.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/serial.o
+ .group         0x0000000000000000        0x8 Link/tty_ioctl.o
+ .group         0x0000000000000000        0x8 Link/tty_ioctl.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/tty_ioctl.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/tty_ioctl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/tty_ioctl.o
+ .group         0x0000000000000000        0x8 Link/bitmap.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/bitmap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/bitmap.o
+ .group         0x0000000000000000        0x8 Link/block_dev.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/block_dev.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/block_dev.o
+ .group         0x0000000000000000        0x8 Link/buffer.o
+ .group         0x0000000000000000        0x8 Link/buffer.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/buffer.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/buffer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/buffer.o
+ .group         0x0000000000000000        0x8 Link/char_dev.o
+ .group         0x0000000000000000        0x8 Link/char_dev.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/char_dev.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/char_dev.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/char_dev.o
+ .group         0x0000000000000000        0x8 Link/exec.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/exec.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/exec.o
+ .group         0x0000000000000000        0x8 Link/fcntl.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/fcntl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/fcntl.o
+ .group         0x0000000000000000        0x8 Link/file_dev.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/file_dev.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/file_dev.o
+ .group         0x0000000000000000        0x8 Link/file_table.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/file_table.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/file_table.o
+ .group         0x0000000000000000        0x8 Link/inode.o
+ .group         0x0000000000000000        0x8 Link/inode.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/inode.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/inode.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/inode.o
+ .group         0x0000000000000000        0x8 Link/ioctl.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/ioctl.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/ioctl.o
+ .group         0x0000000000000000        0x8 Link/namei.o
+ .group         0x0000000000000000        0x8 Link/namei.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/namei.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/namei.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/namei.o
+ .group         0x0000000000000000        0x8 Link/open.o
+ .group         0x0000000000000000        0x8 Link/open.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/open.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/open.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/open.o
+ .group         0x0000000000000000        0x8 Link/pipe.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/pipe.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/pipe.o
+ .group         0x0000000000000000        0x8 Link/read_write.o
+ .group         0x0000000000000000        0x8 Link/read_write.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/read_write.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/read_write.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/read_write.o
+ .group         0x0000000000000000        0x8 Link/select.o
+ .group         0x0000000000000000        0x8 Link/select.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/select.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/select.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/select.o
+ .group         0x0000000000000000        0x8 Link/stat.o
+ .group         0x0000000000000000        0x8 Link/stat.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/stat.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/stat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/stat.o
+ .group         0x0000000000000000        0x8 Link/super.o
+ .group         0x0000000000000000        0x8 Link/super.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/super.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/super.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/super.o
+ .group         0x0000000000000000        0x8 Link/truncate.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/truncate.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/truncate.o
+ .group         0x0000000000000000        0x8 Link/memory.o
+ .group         0x0000000000000000        0x8 Link/memory.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/memory.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/memory.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/memory.o
+ .group         0x0000000000000000        0x8 Link/swap.o
+ .group         0x0000000000000000        0x8 Link/swap.o
+ .text.__x86.get_pc_thunk.ax
+                0x0000000000000000        0x4 Link/swap.o
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 Link/swap.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 Link/swap.o
+
+内存配置
+
+名称           来源             长度             属性
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+段 .text 的地址设置为 0x103000
+LOAD Link/main.o
+LOAD Link/ctype.o
+LOAD Link/errno.o
+LOAD Link/io.o
+LOAD Link/malloc.o
+LOAD Link/segment.o
+LOAD Link/string.o
+LOAD Link/system.o
+LOAD Link/write.o
+LOAD Link/vsprintf.o
+LOAD Link/printk.o
+LOAD Link/panic.o
+LOAD Link/asm.o
+LOAD Link/traps.o
+LOAD Link/sched.o
+LOAD Link/exit.o
+LOAD Link/mktime.o
+LOAD Link/fork.o
+LOAD Link/signal.o
+LOAD Link/sys.o
+LOAD Link/sys_call.o
+LOAD Link/api01.o
+LOAD Link/shell.o
+LOAD Link/hd.o
+LOAD Link/ll_rw_blk.o
+LOAD Link/console.o
+LOAD Link/keyboard.o
+LOAD Link/tty_io.o
+LOAD Link/rs_io.o
+LOAD Link/serial.o
+LOAD Link/tty_ioctl.o
+LOAD Link/bitmap.o
+LOAD Link/block_dev.o
+LOAD Link/buffer.o
+LOAD Link/char_dev.o
+LOAD Link/exec.o
+LOAD Link/fcntl.o
+LOAD Link/file_dev.o
+LOAD Link/file_table.o
+LOAD Link/inode.o
+LOAD Link/ioctl.o
+LOAD Link/namei.o
+LOAD Link/open.o
+LOAD Link/pipe.o
+LOAD Link/read_write.o
+LOAD Link/select.o
+LOAD Link/stat.o
+LOAD Link/super.o
+LOAD Link/truncate.o
+LOAD Link/memory.o
+LOAD Link/page.o
+LOAD Link/swap.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x8048000))
+                0x0000000008048094                . = (SEGMENT_START ("text-segment", 0x8048000) + SIZEOF_HEADERS)
+
+.interp
+ *(.interp)
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.hash
+ *(.hash)
+
+.gnu.hash
+ *(.gnu.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.dyn        0x0000000008048094        0x0
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x0000000008048094        0x0 Link/main.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ .rel.data.rel  0x0000000008048094        0x0 Link/main.o
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x0000000008048094        0x0 Link/main.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ *(.rel.ifunc)
+
+.rel.plt        0x0000000008048094        0x0
+ *(.rel.plt)
+                [!provide]                        PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x0000000008048094        0x0 Link/main.o
+                [!provide]                        PROVIDE (__rel_iplt_end = .)
+
+.init
+ *(SORT_NONE(.init))
+
+.plt            0x0000000008048098        0x0
+ *(.plt)
+ *(.iplt)
+ .iplt          0x0000000008048098        0x0 Link/main.o
+
+.plt.got
+ *(.plt.got)
+
+.plt.sec
+ *(.plt.sec)
+
+.text           0x0000000000103000    0x18c78
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000000103000      0x1c3 Link/main.o
+                0x0000000000103000                main
+                0x000000000010304e                start_kernel
+                0x000000000010316f                init
+ .text.__x86.get_pc_thunk.ax
+                0x00000000001031c3        0x4 Link/main.o
+                0x00000000001031c3                __x86.get_pc_thunk.ax
+ .text.__x86.get_pc_thunk.bx
+                0x00000000001031c7        0x4 Link/main.o
+                0x00000000001031c7                __x86.get_pc_thunk.bx
+ .text          0x00000000001031cb        0x0 Link/ctype.o
+ .text          0x00000000001031cb        0x0 Link/errno.o
+ .text          0x00000000001031cb       0x74 Link/io.o
+                0x00000000001031cb                outb
+                0x00000000001031e2                inb
+                0x0000000000103201                outb_p
+                0x000000000010321c                inb_p
+ .text          0x000000000010323f      0x3be Link/malloc.o
+                0x00000000001032c2                malloc
+                0x000000000010346b                free_s
+ .text          0x00000000001035fd      0x11b Link/segment.o
+                0x00000000001035fd                get_fs_byte
+                0x0000000000103618                get_fs_word
+                0x0000000000103639                get_fs_long
+                0x0000000000103657                put_fs_byte
+                0x000000000010367a                put_fs_word
+                0x000000000010369f                put_fs_long
+                0x00000000001036b8                get_fs
+                0x00000000001036db                get_ds
+                0x00000000001036f8                set_fs
+ .text          0x0000000000103718      0x4c5 Link/string.o
+                0x0000000000103718                strcpy
+                0x000000000010373f                strncpy
+                0x0000000000103770                strcat
+                0x00000000001037a6                strncat
+                0x00000000001037e5                strcmp
+                0x0000000000103818                strncmp
+                0x0000000000103851                strchr
+                0x000000000010388b                strrchr
+                0x00000000001038c7                strspn
+                0x0000000000103912                strcspn
+                0x000000000010395d                strpbrk
+                0x00000000001039a3                strstr
+                0x00000000001039e7                strlen
+                0x0000000000103a0f                strtok
+                0x0000000000103ab5                memcpy
+                0x0000000000103adf                memmove
+                0x0000000000103b36                memcmp
+                0x0000000000103b6b                memchr
+                0x0000000000103bae                memset
+ .text          0x0000000000103bdd      0x187 Link/system.o
+                0x0000000000103bdd                save_intr_flag
+                0x0000000000103bfc                restore_intr_flag
+                0x0000000000103c15                set_intr_gate
+                0x0000000000103c60                set_trap_gate
+                0x0000000000103cab                set_system_gate
+                0x0000000000103cf6                set_tss_desc
+                0x0000000000103d2d                set_ldt_desc
+ .text          0x0000000000103d64      0x3cc Link/write.o
+                0x0000000000103d64                fork
+                0x0000000000103da0                write_simple
+                0x0000000000103de7                pause
+                0x0000000000103e23                print_sys_time
+                0x0000000000103e5f                print_sys_info
+                0x0000000000103e9b                print_hd_info
+                0x0000000000103ee1                start_shell
+                0x0000000000103f1d                setup
+                0x0000000000103f59                ls
+                0x0000000000103f9f                pwd
+                0x0000000000103fdb                chdir
+                0x0000000000104021                mkdir
+                0x0000000000104068                rmdir
+                0x00000000001040ae                sync
+                0x00000000001040ea                format_hd
+ .text.__x86.get_pc_thunk.dx
+                0x0000000000104130        0x4 Link/write.o
+                0x0000000000104130                __x86.get_pc_thunk.dx
+ .text          0x0000000000104134      0x75b Link/vsprintf.o
+                0x0000000000104134                is_digit
+                0x0000000000104400                vsprintf
+                0x0000000000104808                sprintf
+                0x000000000010483e                printf
+ .text          0x000000000010488f       0x4e Link/printk.o
+                0x000000000010488f                printk
+ .text          0x00000000001048dd       0x8e Link/panic.o
+                0x00000000001048dd                panic_exp
+ .text          0x000000000010496b       0xee Link/asm.o
+                0x000000000010496b                divide_error
+                0x00000000001049a0                debug
+                0x00000000001049a7                nmi
+                0x00000000001049ae                int3
+                0x00000000001049b5                overflow
+                0x00000000001049bc                bounds
+                0x00000000001049c3                invalid_op
+                0x00000000001049ca                coprocessor_segment_overrun
+                0x00000000001049d1                reserved
+                0x00000000001049d8                irq13
+                0x00000000001049e1                double_fault
+                0x0000000000104a18                invalid_TSS
+                0x0000000000104a1f                segment_not_present
+                0x0000000000104a26                stack_segment
+                0x0000000000104a2d                general_protection
+                0x0000000000104a34                alignment_check
+                0x0000000000104a3b                device_not_available
+                0x0000000000104a47                parallel_interrupt
+                0x0000000000104a4e                coprocessor_error
+ .text          0x0000000000104a59      0x7ba Link/traps.o
+                0x0000000000104ca1                do_double_fault
+                0x0000000000104ccc                do_general_protection
+                0x0000000000104cf7                do_alignment_check
+                0x0000000000104d22                do_divide_error
+                0x0000000000104d4d                do_int3
+                0x0000000000104df3                do_nmi
+                0x0000000000104e1e                do_debug
+                0x0000000000104e49                do_overflow
+                0x0000000000104e74                do_bounds
+                0x0000000000104e9f                do_invalid_op
+                0x0000000000104eca                do_device_not_available
+                0x0000000000104ef5                do_coprocessor_segment_overrun
+                0x0000000000104f20                do_invalid_TSS
+                0x0000000000104f4b                do_segment_not_present
+                0x0000000000104f76                do_stack_segment
+                0x0000000000104fa1                do_reserved
+                0x0000000000104fcc                do_coprocessor_error
+                0x0000000000104ff7                trap_init
+ .text          0x0000000000105213     0x112c Link/sched.o
+                0x0000000000105213                switch_to
+                0x0000000000105262                show_task
+                0x00000000001053c4                show_state
+                0x000000000010542c                schedule
+                0x0000000000105609                sys_pause
+                0x0000000000105719                interruptible_sleep_on
+                0x000000000010573c                sleep_on
+                0x000000000010575f                wake_up
+                0x00000000001057cd                add_timer
+                0x000000000010590b                do_timer
+                0x0000000000105a2d                sched_init
+                0x000000000010628f                set_base
+                0x00000000001062b6                set_limit
+                0x00000000001062ed                get_base
+                0x000000000010631e                get_limit
+ .text          0x000000000010633f     0x1281 Link/exit.o
+                0x000000000010633f                release
+                0x000000000010645f                bad_task_ptr
+                0x00000000001064ae                audit_ptree
+                0x00000000001069cd                send_sig
+                0x0000000000106ad1                session_of_pgrp
+                0x0000000000106b25                kill_pg
+                0x0000000000106bd2                kill_proc
+                0x0000000000106c4f                sys_kill
+                0x0000000000106d09                is_orphaned_pgrp
+                0x0000000000106e18                do_exit
+                0x0000000000107333                sys_exit
+                0x000000000010735b                sys_waitpid
+ .text          0x00000000001075c0      0x297 Link/mktime.o
+                0x00000000001075c0                kernel_mktime
+                0x0000000000107670                time_init
+ .text          0x0000000000107857      0x6b1 Link/fork.o
+                0x0000000000107857                verify_area
+                0x00000000001078ce                copy_mem
+                0x0000000000107a09                copy_process
+                0x0000000000107e38                find_empty_process
+ .text          0x0000000000107f08      0x640 Link/signal.o
+                0x0000000000107f08                sys_sgetmask
+                0x0000000000107f25                sys_ssetmask
+                0x0000000000107f62                sys_sigpending
+                0x0000000000107fb8                sys_sigsuspend
+                0x00000000001080d1                sys_sigaction
+                0x000000000010820e                core_dump
+                0x0000000000108222                do_signal
+ .text          0x0000000000108548     0x1254 Link/sys.o
+                0x0000000000108548                sys_setregid
+                0x000000000010861d                sys_setgid
+                0x00000000001086ce                sys_time
+                0x0000000000108739                sys_setreuid
+                0x0000000000108831                sys_setuid
+                0x00000000001088e2                sys_stime
+                0x0000000000108955                sys_times
+                0x0000000000108a0f                sys_brk
+                0x0000000000108a69                sys_setpgid
+                0x0000000000108bd7                sys_getpgrp
+                0x0000000000108bf4                sys_setsid
+                0x0000000000108c92                sys_getgroups
+                0x0000000000108d31                sys_setgroups
+                0x0000000000108dd5                in_group_p
+                0x0000000000108e63                sys_uname
+                0x0000000000108edc                sys_sethostname
+                0x0000000000108fa6                sys_getrlimit
+                0x0000000000109025                sys_setrlimit
+                0x00000000001090d3                sys_getrusage
+                0x000000000010932a                sys_gettimeofday
+                0x0000000000109426                sys_settimeofday
+                0x000000000010954d                adjust_clock
+                0x000000000010957a                sys_umask
+                0x00000000001095bb                system_info_init
+ .text          0x000000000010979c      0x180 Link/sys_call.o
+                0x00000000001097ac                system_call
+                0x0000000000109834                timer_interrupt
+                0x0000000000109870                sys_execve
+                0x0000000000109880                sys_fork
+                0x0000000000109898                hd_interrupt
+ .text          0x000000000010991c     0x1a57 Link/api01.o
+                0x000000000010991c                sys_write_simple
+                0x000000000010994c                sys_print_sys_time
+                0x0000000000109b25                sys_print_sys_info
+                0x0000000000109c1c                sys_setup
+                0x0000000000109f87                sys_print_hd_info
+                0x000000000010a1b9                sys_ls
+                0x000000000010a3d0                sys_pwd
+                0x000000000010a688                find_entry_by_inum
+                0x000000000010aaef                sys_format_hd
+ .text          0x000000000010b373      0x6ec Link/shell.o
+                0x000000000010b373                sys_start_shell
+                0x000000000010b5c9                shell_manage
+                0x000000000010b9f3                cmd_clear
+ .text          0x000000000010ba5f     0x158b Link/hd.o
+                0x000000000010bd10                hd_out
+                0x000000000010be82                hd_out_LBA
+                0x000000000010c224                unexpected_hd_interrupt
+                0x000000000010c26d                hd_times_out
+                0x000000000010c2eb                bad_rw_intr
+                0x000000000010c347                read_intr
+                0x000000000010c417                write_intr
+                0x000000000010c4d7                recal_intr
+                0x000000000010c4fd                do_hd_request
+                0x000000000010c7b8                read_first_disk_base
+                0x000000000010c8f0                read_second_disk_base
+                0x000000000010ca28                write_first_disk_base
+                0x000000000010cb93                write_second_disk_base
+                0x000000000010ccfe                read_first_disk
+                0x000000000010cd3e                read_second_disk
+                0x000000000010cd7e                write_first_disk
+                0x000000000010cdbe                write_second_disk
+                0x000000000010cdfe                hd_init
+ .text          0x000000000010cfea      0x644 Link/ll_rw_blk.o
+                0x000000000010d32f                ll_rw_page
+                0x000000000010d48a                ll_rw_block
+                0x000000000010d4f2                blk_dev_init
+                0x000000000010d5b9                IN_ORDER
+ .text          0x000000000010d62e     0x13e6 Link/console.o
+                0x000000000010d675                gotoxy
+                0x000000000010d81c                scrup
+                0x000000000010dd44                set_cursor
+                0x000000000010de2b                csi_J
+                0x000000000010df38                csi_K
+                0x000000000010e078                con_write
+                0x000000000010e394                con_init
+                0x000000000010e819                update_screen
+                0x000000000010e859                console_print
+ .text.__x86.get_pc_thunk.si
+                0x000000000010ea14        0x4 Link/console.o
+                0x000000000010ea14                __x86.get_pc_thunk.si
+ .text          0x000000000010ea18      0x80f Link/keyboard.o
+                0x000000000010ea1b                keyboard_interrupt
+                0x000000000010ebec                func
+ .text          0x000000000010f227     0x15d7 Link/tty_io.o
+                0x000000000010f227                change_console
+                0x000000000010f2ad                sleep_if_empty
+                0x000000000010f30c                sleep_if_full
+                0x000000000010f396                wait_for_keypress
+                0x000000000010f3cd                copy_to_cooked
+                0x000000000010faeb                tty_signal
+                0x000000000010fbb6                tty_read
+                0x000000000010ffc9                tty_write
+                0x00000000001102ac                do_tty_interrupt
+                0x000000000011030d                chr_dev_init
+                0x0000000000110393                tty_init
+ *fill*         0x00000000001107fe        0x2 
+ .text          0x0000000000110800       0xfb Link/rs_io.o
+                0x0000000000110800                rs1_interrupt
+                0x0000000000110808                rs2_interrupt
+ .text          0x00000000001108fb      0x19b Link/serial.o
+                0x0000000000110998                rs_init
+                0x0000000000110a2f                rs_write
+ .text          0x0000000000110a96      0x6b0 Link/tty_ioctl.o
+                0x0000000000110c93                tty_ioctl
+ .text          0x0000000000111146      0x741 Link/bitmap.o
+                0x0000000000111146                free_block
+                0x00000000001112dc                new_block
+                0x00000000001114be                free_inode
+                0x0000000000111689                new_inode
+ .text          0x0000000000111887      0x30b Link/block_dev.o
+                0x0000000000111887                block_write
+                0x0000000000111a1e                block_read
+ .text          0x0000000000111b92      0xb43 Link/buffer.o
+                0x0000000000111bcb                sys_sync
+                0x0000000000111c3c                sync_dev
+                0x0000000000111d3f                invalidate_buffers
+                0x0000000000112048                get_hash_table
+                0x00000000001120c9                getblk
+                0x0000000000112270                brelse
+                0x00000000001122e6                bread
+                0x000000000011238a                bread_page
+                0x00000000001124ae                breada
+                0x00000000001125b3                buffer_init
+ .text          0x00000000001126d5      0x27c Link/char_dev.o
+                0x00000000001128f2                rw_char
+ .text          0x0000000000112951      0xe18 Link/exec.o
+                0x0000000000112951                sys_uselib
+                0x0000000000112ec4                do_execve
+ .text          0x0000000000113769      0x293 Link/fcntl.o
+                0x000000000011385d                sys_dup2
+                0x0000000000113895                sys_dup
+                0x00000000001138b1                sys_fcntl
+ .text          0x00000000001139fc      0x376 Link/file_dev.o
+                0x00000000001139fc                file_read
+                0x0000000000113b8c                file_write
+ .text          0x0000000000113d72       0xc4 Link/file_table.o
+                0x0000000000113d72                file_table_init
+ .text          0x0000000000113e36     0x1079 Link/inode.o
+                0x0000000000113ee1                invalidate_inodes
+                0x0000000000113f64                sync_inodes
+                0x00000000001143dd                bmap
+                0x0000000000114402                create_block
+                0x0000000000114427                iput
+                0x00000000001145ea                get_empty_inode
+                0x0000000000114759                get_pipe_inode
+                0x00000000001147d7                iget
+                0x0000000000114cd4                inode_table_init
+ .text          0x0000000000114eaf      0x11f Link/ioctl.o
+                0x0000000000114eaf                sys_ioctl
+ .text          0x0000000000114fce     0x2145 Link/namei.o
+                0x0000000000114fce                ACC_MODE
+                0x0000000000115a2a                lnamei
+                0x0000000000115a4e                namei
+                0x0000000000115a72                open_namei
+                0x0000000000115dce                sys_mknod
+                0x0000000000116001                sys_mkdir
+                0x0000000000116550                sys_rmdir
+                0x00000000001168c1                sys_unlink
+                0x0000000000116b78                sys_symlink
+                0x0000000000116eab                sys_link
+ .text          0x0000000000117113      0x9b2 Link/open.o
+                0x0000000000117113                sys_ustat
+                0x0000000000117127                sys_utime
+                0x00000000001171e9                sys_access
+                0x00000000001172d6                sys_chdir
+                0x0000000000117365                sys_chroot
+                0x00000000001173f4                sys_chmod
+                0x00000000001174a4                sys_chown
+                0x0000000000117798                sys_open
+                0x0000000000117999                sys_creat
+                0x00000000001179c1                sys_close
+ .text          0x0000000000117ac5      0x578 Link/pipe.o
+                0x0000000000117ac5                read_pipe
+                0x0000000000117c50                write_pipe
+                0x0000000000117dcc                sys_pipe
+                0x0000000000117fd4                pipe_ioctl
+ .text          0x000000000011803d      0x448 Link/read_write.o
+                0x000000000011803d                sys_lseek
+                0x000000000011814e                sys_read
+                0x0000000000118312                sys_write
+ .text          0x0000000000118485      0x9b3 Link/select.o
+                0x0000000000118870                do_select
+                0x0000000000118b42                sys_select
+ .text          0x0000000000118e38      0x2f9 Link/stat.o
+                0x0000000000118f0a                sys_stat
+                0x0000000000118f63                sys_lstat
+                0x0000000000118fbc                sys_fstat
+                0x000000000011901e                sys_readlink
+ .text          0x0000000000119131     0x1034 Link/super.o
+                0x00000000001191de                get_super
+                0x0000000000119263                put_super
+                0x0000000000119682                sys_umount
+                0x0000000000119807                sys_mount
+                0x000000000011998e                mount_root
+                0x0000000000119f61                super_block_init
+ .text          0x000000000011a165      0x347 Link/truncate.o
+                0x000000000011a30f                truncate
+ .text          0x000000000011a4ac     0x103d Link/memory.o
+                0x000000000011a4ac                oom
+                0x000000000011a4f0                invalidate
+                0x000000000011a508                copy_page
+                0x000000000011a52e                MAP_NR
+                0x000000000011a551                free_page
+                0x000000000011a601                free_page_tables
+                0x000000000011a74a                copy_page_tables
+                0x000000000011aa23                put_dirty_page
+                0x000000000011ab0e                un_wp_page
+                0x000000000011abcf                do_wp_page
+                0x000000000011ac6a                write_verify
+                0x000000000011acce                get_empty_page
+                0x000000000011af7b                do_no_page
+                0x000000000011b1e1                mem_init
+                0x000000000011b263                show_mem
+ .text          0x000000000011b4e9       0x37 Link/page.o
+                0x000000000011b4e9                page_fault
+ .text          0x000000000011b520      0x758 Link/swap.o
+                0x000000000011b609                swap_free
+                0x000000000011b669                swap_in
+                0x000000000011b74c                try_to_swap_out
+                0x000000000011b842                swap_out
+                0x000000000011b99e                get_free_page
+                0x000000000011ba18                init_swapping
+ *(.gnu.warning)
+
+.fini
+ *(SORT_NONE(.fini))
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.rodata         0x000000000011bc78     0x2161
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata        0x000000000011bc78       0x75 Link/main.o
+ *fill*         0x000000000011bced        0x3 
+ .rodata        0x000000000011bcf0      0x107 Link/malloc.o
+ *fill*         0x000000000011bdf7        0x1 
+ .rodata        0x000000000011bdf8      0x118 Link/vsprintf.o
+ .rodata        0x000000000011bf10       0x6c Link/panic.o
+ .rodata        0x000000000011bf7c      0x213 Link/traps.o
+ *fill*         0x000000000011c18f        0x1 
+ .rodata        0x000000000011c190      0x126 Link/sched.o
+ *fill*         0x000000000011c2b6        0x2 
+ .rodata        0x000000000011c2b8      0x2e8 Link/exit.o
+ .rodata        0x000000000011c5a0       0x45 Link/fork.o
+ *fill*         0x000000000011c5e5        0x3 
+ .rodata        0x000000000011c5e8       0x80 Link/signal.o
+ .rodata        0x000000000011c668       0x41 Link/sys.o
+ *fill*         0x000000000011c6a9        0x3 
+ .rodata        0x000000000011c6ac      0x696 Link/api01.o
+ *fill*         0x000000000011cd42        0x2 
+ .rodata        0x000000000011cd44       0xbc Link/shell.o
+ .rodata        0x000000000011ce00      0x186 Link/hd.o
+ *fill*         0x000000000011cf86        0x2 
+ .rodata        0x000000000011cf88       0xd7 Link/ll_rw_blk.o
+ *fill*         0x000000000011d05f        0x1 
+ .rodata        0x000000000011d060       0xa2 Link/console.o
+ *fill*         0x000000000011d102        0x2 
+ .rodata        0x000000000011d104       0x5b Link/tty_io.o
+ *fill*         0x000000000011d15f        0x1 
+ .rodata        0x000000000011d160       0xa2 Link/tty_ioctl.o
+ *fill*         0x000000000011d202        0x2 
+ .rodata        0x000000000011d204      0x266 Link/bitmap.o
+ *fill*         0x000000000011d46a        0x2 
+ .rodata        0x000000000011d46c       0x8b Link/buffer.o
+ *fill*         0x000000000011d4f7        0x1 
+ .rodata        0x000000000011d4f8       0x14 Link/char_dev.o
+ .rodata        0x000000000011d50c       0x82 Link/exec.o
+ *fill*         0x000000000011d58e        0x2 
+ .rodata        0x000000000011d590       0x20 Link/fcntl.o
+ .rodata        0x000000000011d5b0      0x164 Link/inode.o
+ .rodata        0x000000000011d714       0x7d Link/namei.o
+ *fill*         0x000000000011d791        0x3 
+ .rodata        0x000000000011d794       0x2e Link/open.o
+ .rodata        0x000000000011d7c2       0x37 Link/read_write.o
+ .rodata        0x000000000011d7f9       0x10 Link/select.o
+ *fill*         0x000000000011d809        0x3 
+ .rodata        0x000000000011d80c      0x123 Link/super.o
+ *fill*         0x000000000011d92f        0x1 
+ .rodata        0x000000000011d930      0x2f1 Link/memory.o
+ *fill*         0x000000000011dc21        0x3 
+ .rodata        0x000000000011dc24      0x1b5 Link/swap.o
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000011dddc     0x37c4
+ *(.eh_frame)
+ .eh_frame      0x000000000011dddc       0xa4 Link/main.o
+ .eh_frame      0x000000000011de80       0x80 Link/io.o
+                                         0xac (松开之前的大小)
+ .eh_frame      0x000000000011df00       0x6c Link/malloc.o
+                                         0x98 (松开之前的大小)
+ .eh_frame      0x000000000011df6c      0x124 Link/segment.o
+                                        0x150 (松开之前的大小)
+ .eh_frame      0x000000000011e090      0x310 Link/string.o
+                                        0x33c (松开之前的大小)
+ .eh_frame      0x000000000011e3a0       0xec Link/system.o
+                                        0x118 (松开之前的大小)
+ .eh_frame      0x000000000011e48c      0x210 Link/write.o
+                                        0x228 (松开之前的大小)
+ .eh_frame      0x000000000011e69c       0xcc Link/vsprintf.o
+                                        0x10c (松开之前的大小)
+ .eh_frame      0x000000000011e768       0x24 Link/printk.o
+                                         0x50 (松开之前的大小)
+ .eh_frame      0x000000000011e78c       0x1c Link/panic.o
+                                         0x48 (松开之前的大小)
+ .eh_frame      0x000000000011e7a8      0x2c8 Link/traps.o
+                                        0x308 (松开之前的大小)
+ .eh_frame      0x000000000011ea70      0x240 Link/sched.o
+                                        0x280 (松开之前的大小)
+ .eh_frame      0x000000000011ecb0      0x1cc Link/exit.o
+                                        0x20c (松开之前的大小)
+ .eh_frame      0x000000000011ee7c       0x50 Link/mktime.o
+                                         0x90 (松开之前的大小)
+ .eh_frame      0x000000000011eecc       0x8c Link/fork.o
+                                         0xcc (松开之前的大小)
+ .eh_frame      0x000000000011ef58      0x140 Link/signal.o
+                                        0x180 (松开之前的大小)
+ .eh_frame      0x000000000011f098      0x344 Link/sys.o
+                                        0x384 (松开之前的大小)
+ .eh_frame      0x000000000011f3dc      0x174 Link/api01.o
+                                        0x1b4 (松开之前的大小)
+ .eh_frame      0x000000000011f550       0x90 Link/shell.o
+                                         0xbc (松开之前的大小)
+ .eh_frame      0x000000000011f5e0      0x454 Link/hd.o
+                                        0x494 (松开之前的大小)
+ .eh_frame      0x000000000011fa34      0x118 Link/ll_rw_blk.o
+                                        0x158 (松开之前的大小)
+ .eh_frame      0x000000000011fb4c      0x260 Link/console.o
+                                        0x2b4 (松开之前的大小)
+ .eh_frame      0x000000000011fdac      0x184 Link/tty_io.o
+                                        0x1c4 (松开之前的大小)
+ .eh_frame      0x000000000011ff30       0x70 Link/serial.o
+                                         0x9c (松开之前的大小)
+ .eh_frame      0x000000000011ffa0       0xf0 Link/tty_ioctl.o
+                                        0x130 (松开之前的大小)
+ .eh_frame      0x0000000000120090       0xa4 Link/bitmap.o
+                                         0xd0 (松开之前的大小)
+ .eh_frame      0x0000000000120134       0x58 Link/block_dev.o
+                                         0x84 (松开之前的大小)
+ .eh_frame      0x000000000012018c      0x21c Link/buffer.o
+                                        0x25c (松开之前的大小)
+ .eh_frame      0x00000000001203a8      0x10c Link/char_dev.o
+                                        0x14c (松开之前的大小)
+ .eh_frame      0x00000000001204b4       0xe8 Link/exec.o
+                                        0x114 (松开之前的大小)
+ .eh_frame      0x000000000012059c       0x98 Link/fcntl.o
+                                         0xc4 (松开之前的大小)
+ .eh_frame      0x0000000000120634       0x48 Link/file_dev.o
+                                         0x74 (松开之前的大小)
+ .eh_frame      0x000000000012067c       0x20 Link/file_table.o
+                                         0x4c (松开之前的大小)
+ .eh_frame      0x000000000012069c      0x20c Link/inode.o
+                                        0x24c (松开之前的大小)
+ .eh_frame      0x00000000001208a8       0x24 Link/ioctl.o
+                                         0x50 (松开之前的大小)
+ .eh_frame      0x00000000001208cc      0x2d0 Link/namei.o
+                                        0x310 (松开之前的大小)
+ .eh_frame      0x0000000000120b9c      0x18c Link/open.o
+                                        0x1cc (松开之前的大小)
+ .eh_frame      0x0000000000120d28       0x90 Link/pipe.o
+                                         0xbc (松开之前的大小)
+ .eh_frame      0x0000000000120db8       0x68 Link/read_write.o
+                                         0xa8 (松开之前的大小)
+ .eh_frame      0x0000000000120e20      0x110 Link/select.o
+                                        0x150 (松开之前的大小)
+ .eh_frame      0x0000000000120f30       0xb0 Link/stat.o
+                                         0xf0 (松开之前的大小)
+ .eh_frame      0x0000000000120fe0      0x16c Link/super.o
+                                        0x1ac (松开之前的大小)
+ .eh_frame      0x000000000012114c       0x6c Link/truncate.o
+                                         0x98 (松开之前的大小)
+ .eh_frame      0x00000000001211b8      0x284 Link/memory.o
+                                        0x2c4 (松开之前的大小)
+ .eh_frame      0x000000000012143c      0x164 Link/swap.o
+                                        0x1a4 (松开之前的大小)
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000000123000                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000123000        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000123000        0x0
+                [!provide]                        PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+                [!provide]                        PROVIDE (__init_array_end = .)
+
+.fini_array     0x0000000000123000        0x0
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic
+ *(.dynamic)
+
+.got            0x0000000000123000        0x0
+ *(.got)
+ .got           0x0000000000123000        0x0 Link/main.o
+ *(.igot)
+                0x0000000000123ff4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000000000123000        0xc
+ *(.got.plt)
+ .got.plt       0x0000000000123000        0xc Link/main.o
+                0x0000000000123000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x000000000012300c        0x0 Link/main.o
+
+.data           0x0000000000123020      0x268
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000123020        0x0 Link/main.o
+ .data          0x0000000000123020      0x101 Link/ctype.o
+                0x0000000000123020                _ctype
+ .data          0x0000000000123121        0x0 Link/errno.o
+ .data          0x0000000000123121        0x0 Link/io.o
+ *fill*         0x0000000000123121       0x1f 
+ .data          0x0000000000123140       0x50 Link/malloc.o
+                0x0000000000123140                bucket_dir
+ .data          0x0000000000123190        0x0 Link/segment.o
+ .data          0x0000000000123190        0x0 Link/string.o
+ .data          0x0000000000123190        0x0 Link/system.o
+ .data          0x0000000000123190        0x0 Link/write.o
+ .data          0x0000000000123190        0x0 Link/vsprintf.o
+ .data          0x0000000000123190        0x0 Link/printk.o
+ .data          0x0000000000123190        0x0 Link/panic.o
+ .data          0x0000000000123190        0x0 Link/asm.o
+ .data          0x0000000000123190        0x0 Link/traps.o
+ .data          0x0000000000123190        0x0 Link/sched.o
+ .data          0x0000000000123190        0x0 Link/exit.o
+ *fill*         0x0000000000123190       0x10 
+ .data          0x00000000001231a0       0x30 Link/mktime.o
+ .data          0x00000000001231d0        0x0 Link/fork.o
+ .data          0x00000000001231d0        0x0 Link/signal.o
+ .data          0x00000000001231d0        0x4 Link/sys.o
+ .data          0x00000000001231d4        0x0 Link/sys_call.o
+ .data          0x00000000001231d4        0x0 Link/api01.o
+ .data          0x00000000001231d4        0x0 Link/shell.o
+ .data          0x00000000001231d4        0x0 Link/hd.o
+ .data          0x00000000001231d4        0x0 Link/ll_rw_blk.o
+ .data          0x00000000001231d4        0x0 Link/console.o
+ .data          0x00000000001231d4        0x0 Link/keyboard.o
+ .data          0x00000000001231d4        0x0 Link/tty_io.o
+ .data.rel      0x00000000001231d4       0x18 Link/tty_io.o
+                0x00000000001231d4                table_list
+ .data          0x00000000001231ec        0x0 Link/rs_io.o
+ .data          0x00000000001231ec        0x0 Link/serial.o
+ *fill*         0x00000000001231ec       0x14 
+ .data          0x0000000000123200       0x20 Link/tty_ioctl.o
+ .data          0x0000000000123220        0x0 Link/bitmap.o
+ .data          0x0000000000123220        0x0 Link/block_dev.o
+ .data          0x0000000000123220        0x0 Link/buffer.o
+ .data          0x0000000000123220        0x0 Link/char_dev.o
+ .data.rel.local
+                0x0000000000123220       0x20 Link/char_dev.o
+ .data          0x0000000000123240        0x0 Link/exec.o
+ .data          0x0000000000123240        0x0 Link/fcntl.o
+ .data          0x0000000000123240        0x0 Link/file_dev.o
+ .data          0x0000000000123240        0x0 Link/file_table.o
+ .data          0x0000000000123240        0x0 Link/inode.o
+ .data.rel.local
+                0x0000000000123240        0x4 Link/inode.o
+ .data          0x0000000000123244        0x0 Link/ioctl.o
+ *fill*         0x0000000000123244       0x1c 
+ .data.rel      0x0000000000123260       0x20 Link/ioctl.o
+ .data          0x0000000000123280        0x0 Link/namei.o
+ .data          0x0000000000123280        0x0 Link/open.o
+ .data          0x0000000000123280        0x0 Link/pipe.o
+ .data          0x0000000000123280        0x0 Link/read_write.o
+ .data          0x0000000000123280        0x0 Link/select.o
+ .data          0x0000000000123280        0x0 Link/stat.o
+ .data          0x0000000000123280        0x0 Link/super.o
+ .data          0x0000000000123280        0x0 Link/truncate.o
+ .data          0x0000000000123280        0x0 Link/memory.o
+ .data          0x0000000000123280        0x0 Link/page.o
+ .data          0x0000000000123280        0x8 Link/swap.o
+
+.data1
+ *(.data1)
+                0x0000000000123288                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000123288                . = .
+                0x0000000000123288                __bss_start = .
+
+.bss            0x00000000001232a0    0x12940
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00000000001232a0        0xc Link/main.o
+ .bss           0x00000000001232ac        0x0 Link/ctype.o
+ .bss           0x00000000001232ac        0x0 Link/errno.o
+ .bss           0x00000000001232ac        0x0 Link/io.o
+ .bss           0x00000000001232ac        0x4 Link/malloc.o
+                0x00000000001232ac                free_bucket_desc
+ .bss           0x00000000001232b0        0x0 Link/segment.o
+ .bss           0x00000000001232b0        0x0 Link/string.o
+ .bss           0x00000000001232b0        0x0 Link/system.o
+ .bss           0x00000000001232b0        0x0 Link/write.o
+ *fill*         0x00000000001232b0       0x10 
+ .bss           0x00000000001232c0      0x400 Link/vsprintf.o
+ .bss           0x00000000001236c0      0x400 Link/printk.o
+ .bss           0x0000000000123ac0        0x0 Link/panic.o
+ .bss           0x0000000000123ac0        0x0 Link/asm.o
+ .bss           0x0000000000123ac0        0x0 Link/traps.o
+ .bss           0x0000000000123ac0        0x0 Link/sched.o
+ .bss           0x0000000000123ac0        0x0 Link/exit.o
+ .bss           0x0000000000123ac0        0x0 Link/mktime.o
+ .bss           0x0000000000123ac0        0x0 Link/fork.o
+ .bss           0x0000000000123ac0        0x0 Link/signal.o
+ .bss           0x0000000000123ac0        0x8 Link/sys.o
+                0x0000000000123ac0                sys_tz
+ .bss           0x0000000000123ac8        0x0 Link/sys_call.o
+ .bss           0x0000000000123ac8        0x0 Link/api01.o
+ .bss           0x0000000000123ac8        0x0 Link/shell.o
+ .bss           0x0000000000123ac8        0x4 Link/hd.o
+ .bss           0x0000000000123acc        0x0 Link/ll_rw_blk.o
+ .bss           0x0000000000123acc        0x0 Link/console.o
+ .bss           0x0000000000123acc        0x0 Link/keyboard.o
+ .bss           0x0000000000123acc        0x4 Link/tty_io.o
+ .bss           0x0000000000123ad0        0x0 Link/rs_io.o
+ .bss           0x0000000000123ad0        0x0 Link/serial.o
+ .bss           0x0000000000123ad0        0x0 Link/tty_ioctl.o
+ .bss           0x0000000000123ad0        0x0 Link/bitmap.o
+ .bss           0x0000000000123ad0        0x0 Link/block_dev.o
+ .bss           0x0000000000123ad0        0xc Link/buffer.o
+                0x0000000000123ad0                nr_buffers
+ .bss           0x0000000000123adc        0x0 Link/char_dev.o
+ .bss           0x0000000000123adc        0x0 Link/exec.o
+ .bss           0x0000000000123adc        0x0 Link/fcntl.o
+ .bss           0x0000000000123adc        0x0 Link/file_dev.o
+ .bss           0x0000000000123adc        0x0 Link/file_table.o
+ *fill*         0x0000000000123adc        0x4 
+ .bss           0x0000000000123ae0      0xf00 Link/inode.o
+                0x0000000000123ae0                inode_table
+ .bss           0x00000000001249e0        0x0 Link/ioctl.o
+ .bss           0x00000000001249e0        0x0 Link/namei.o
+ .bss           0x00000000001249e0        0x0 Link/open.o
+ .bss           0x00000000001249e0        0x0 Link/pipe.o
+ .bss           0x00000000001249e0        0x0 Link/read_write.o
+ .bss           0x00000000001249e0        0x0 Link/select.o
+ .bss           0x00000000001249e0        0x0 Link/stat.o
+ .bss           0x00000000001249e0        0x4 Link/super.o
+                0x00000000001249e0                ROOT_DEV
+ .bss           0x00000000001249e4        0x0 Link/truncate.o
+ .bss           0x00000000001249e4        0x0 Link/memory.o
+ .bss           0x00000000001249e4        0x0 Link/page.o
+ .bss           0x00000000001249e4        0x8 Link/swap.o
+                0x00000000001249e4                SWAP_DEV
+ *(COMMON)
+ *fill*         0x00000000001249ec       0x14 
+ COMMON         0x0000000000124a00      0x9c0 Link/main.o
+                0x0000000000124a00                start_buffer
+                0x0000000000124a04                ___strtok
+                0x0000000000124a08                gdt
+                0x0000000000124a20                hd_info
+                0x0000000000124a40                pg_dir
+                0x0000000000124a44                idt
+                0x0000000000124a60                super_block
+                0x0000000000124dc0                thisname
+                0x0000000000124fc0                file_table
+ COMMON         0x00000000001253c0        0x1 Link/ctype.o
+                0x00000000001253c0                _ctmp
+ *fill*         0x00000000001253c1        0x3 
+ COMMON         0x00000000001253c4        0x4 Link/errno.o
+                0x00000000001253c4                errno
+ *fill*         0x00000000001253c8       0x18 
+ COMMON         0x00000000001253e0      0x440 Link/sched.o
+                0x00000000001253e0                startup_time
+                0x00000000001253e4                jiffies_offset
+                0x00000000001253e8                next_timer
+                0x00000000001253ec                current
+                0x0000000000125400                task
+                0x0000000000125500                jiffies
+                0x0000000000125504                last_task_used_math
+                0x0000000000125520                timer_list
+ COMMON         0x0000000000125820     0x2040 Link/exit.o
+                0x0000000000125820                INIT_C_CC
+                0x0000000000125840                shell
+ COMMON         0x0000000000127860        0x4 Link/fork.o
+                0x0000000000127860                last_pid
+ *fill*         0x0000000000127864       0x1c 
+ COMMON         0x0000000000127880       0xc8 Link/hd.o
+                0x0000000000127880                recalibrate
+                0x0000000000127884                hd_timeout
+                0x0000000000127888                reset
+                0x000000000012788c                do_hd
+                0x0000000000127890                NR_HD
+                0x0000000000127894                sys_load_flags
+                0x0000000000127898                first_part_blockno
+                0x000000000012789c                callable
+                0x00000000001278a0                first_part_sectno
+                0x00000000001278c0                hd
+                0x0000000000127920                hd_sizes
+ *fill*         0x0000000000127948       0x18 
+ COMMON         0x0000000000127960      0x4f4 Link/ll_rw_blk.o
+                0x0000000000127960                wait_for_request
+                0x0000000000127980                request
+                0x0000000000127e00                blk_dev
+                0x0000000000127e38                blk_size
+ *fill*         0x0000000000127e54        0xc 
+ COMMON         0x0000000000127e60      0x190 Link/console.o
+                0x0000000000127e60                fg_console
+                0x0000000000127e64                video_port_val
+                0x0000000000127e68                video_mem_term
+                0x0000000000127e6c                video_num_columns
+                0x0000000000127e70                video_mem_base
+                0x0000000000127e74                NR_CONSOLES
+                0x0000000000127e80                vc_cons
+                0x0000000000127fe0                video_port_reg
+                0x0000000000127fe4                video_num_lines
+                0x0000000000127fe8                translations
+                0x0000000000127fec                video_size_row
+ *fill*         0x0000000000127ff0       0x10 
+ COMMON         0x0000000000128000     0x99e0 Link/tty_io.o
+                0x0000000000128000                tty_table
+                0x000000000012a000                tty_queues
+ COMMON         0x00000000001319e0      0x4cc Link/buffer.o
+                0x00000000001319e0                hash_table
+ COMMON         0x0000000000131eac        0x5 Link/file_table.o
+                0x0000000000131eac                ACC_MODE_INFO
+ *fill*         0x0000000000131eb1        0xf 
+ COMMON         0x0000000000131ec0     0x3d20 Link/memory.o
+                0x0000000000131ec0                HIGH_MEMORY
+                0x0000000000131ee0                mem_map
+                0x0000000000135be0                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000000135be0                . = ALIGN (0x4)
+                0x0000000000135be0                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000000135be0                . = ALIGN (0x4)
+                0x0000000000135be0                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000135be0                . = DATA_SEGMENT_END (.)
+
+.stab           0x0000000000000000    0x24330
+ *(.stab)
+ .stab          0x0000000000000000      0x804 Link/main.o
+ .stab          0x0000000000000804      0x168 Link/ctype.o
+                                        0x174 (松开之前的大小)
+ .stab          0x000000000000096c      0x15c Link/errno.o
+                                        0x168 (松开之前的大小)
+ .stab          0x0000000000000ac8      0x2b8 Link/io.o
+                                        0x2c4 (松开之前的大小)
+ .stab          0x0000000000000d80      0x750 Link/malloc.o
+                                        0x78c (松开之前的大小)
+ .stab          0x00000000000014d0      0x498 Link/segment.o
+                                        0x4a4 (松开之前的大小)
+ .stab          0x0000000000001968      0x9f0 Link/string.o
+                                        0x9fc (松开之前的大小)
+ .stab          0x0000000000002358      0x45c Link/system.o
+                                        0x480 (松开之前的大小)
+ .stab          0x00000000000027b4      0xb34 Link/write.o
+                                        0xbb8 (松开之前的大小)
+ .stab          0x00000000000032e8      0xcb4 Link/vsprintf.o
+                                        0xcf0 (松开之前的大小)
+ .stab          0x0000000000003f9c      0x1f8 Link/printk.o
+                                        0x234 (松开之前的大小)
+ .stab          0x0000000000004194      0x2c4 Link/panic.o
+                                        0x54c (松开之前的大小)
+ .stab          0x0000000000004458      0x4ec Link/asm.o
+                                        0x4f8 (松开之前的大小)
+ .stab          0x0000000000004944      0xc48 Link/traps.o
+                                        0xed0 (松开之前的大小)
+ .stab          0x000000000000558c     0x1530 Link/sched.o
+                                       0x180c (松开之前的大小)
+ .stab          0x0000000000006abc     0x1518 Link/exit.o
+                                       0x17a0 (松开之前的大小)
+ .stab          0x0000000000007fd4      0x414 Link/mktime.o
+                                        0x69c (松开之前的大小)
+ .stab          0x00000000000083e8      0x9e4 Link/fork.o
+                                        0xc6c (松开之前的大小)
+ .stab          0x0000000000008dcc      0x9f0 Link/signal.o
+                                        0xc78 (松开之前的大小)
+ .stab          0x00000000000097bc     0x153c Link/sys.o
+                                       0x1818 (松开之前的大小)
+ .stab          0x000000000000acf8      0x5d0 Link/sys_call.o
+                                        0x5dc (松开之前的大小)
+ .stab          0x000000000000b2c8     0x1f68 Link/api01.o
+                                       0x2088 (松开之前的大小)
+ .stab          0x000000000000d230      0x96c Link/shell.o
+                                        0xc6c (松开之前的大小)
+ .stab          0x000000000000db9c     0x1b18 Link/hd.o
+                                       0x1df4 (松开之前的大小)
+ .stab          0x000000000000f6b4      0xbac Link/ll_rw_blk.o
+                                        0xe88 (松开之前的大小)
+ .stab          0x0000000000010260     0x10b0 Link/console.o
+                                       0x1128 (松开之前的大小)
+ .stab          0x0000000000011310      0xa2c Link/keyboard.o
+                                        0xa38 (松开之前的大小)
+ .stab          0x0000000000011d3c     0x15f0 Link/tty_io.o
+                                       0x1860 (松开之前的大小)
+ .stab          0x000000000001332c      0x468 Link/rs_io.o
+                                        0x474 (松开之前的大小)
+ .stab          0x0000000000013794      0x51c Link/serial.o
+                                        0x630 (松开之前的大小)
+ .stab          0x0000000000013cb0      0x9d8 Link/tty_ioctl.o
+                                        0xc9c (松开之前的大小)
+ .stab          0x0000000000014688      0x9c0 Link/bitmap.o
+                                        0xc48 (松开之前的大小)
+ .stab          0x0000000000015048      0x6a8 Link/block_dev.o
+                                        0x930 (松开之前的大小)
+ .stab          0x00000000000156f0     0x1134 Link/buffer.o
+                                       0x13bc (松开之前的大小)
+ .stab          0x0000000000016824      0x6f0 Link/char_dev.o
+                                        0x978 (松开之前的大小)
+ .stab          0x0000000000016f14     0x1230 Link/exec.o
+                                       0x14d0 (松开之前的大小)
+ .stab          0x0000000000018144      0x504 Link/fcntl.o
+                                        0x7a4 (松开之前的大小)
+ .stab          0x0000000000018648      0x63c Link/file_dev.o
+                                        0x8dc (松开之前的大小)
+ .stab          0x0000000000018c84      0x2ac Link/file_table.o
+                                        0x42c (松开之前的大小)
+ .stab          0x0000000000018f30     0x1458 Link/inode.o
+                                       0x16f8 (松开之前的大小)
+ .stab          0x000000000001a388      0x54c Link/ioctl.o
+                                        0x63c (松开之前的大小)
+ .stab          0x000000000001a8d4     0x27b4 Link/namei.o
+                                       0x2a6c (松开之前的大小)
+ .stab          0x000000000001d088      0xe40 Link/open.o
+                                       0x1134 (松开之前的大小)
+ .stab          0x000000000001dec8      0x960 Link/pipe.o
+                                        0xb64 (松开之前的大小)
+ .stab          0x000000000001e828      0x6c0 Link/read_write.o
+                                        0x960 (松开之前的大小)
+ .stab          0x000000000001eee8      0xe04 Link/select.o
+                                       0x10e0 (松开之前的大小)
+ .stab          0x000000000001fcec      0x6d8 Link/stat.o
+                                        0x978 (松开之前的大小)
+ .stab          0x00000000000203c4     0x144c Link/super.o
+                                       0x16ec (松开之前的大小)
+ .stab          0x0000000000021810      0x66c Link/truncate.o
+                                        0x8f4 (松开之前的大小)
+ .stab          0x0000000000021e7c     0x1764 Link/memory.o
+                                       0x19ec (松开之前的大小)
+ .stab          0x00000000000235e0      0x144 Link/page.o
+                                        0x150 (松开之前的大小)
+ .stab          0x0000000000023724      0xc0c Link/swap.o
+                                        0xe94 (松开之前的大小)
+
+.stabstr        0x0000000000000000     0xdb7d
+ *(.stabstr)
+ .stabstr       0x0000000000000000     0xdb7d Link/main.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x29
+ *(.comment)
+ .comment       0x0000000000000000       0x29 Link/main.o
+                                         0x2a (松开之前的大小)
+ .comment       0x0000000000000029       0x2a Link/ctype.o
+ .comment       0x0000000000000029       0x2a Link/errno.o
+ .comment       0x0000000000000029       0x2a Link/io.o
+ .comment       0x0000000000000029       0x2a Link/malloc.o
+ .comment       0x0000000000000029       0x2a Link/segment.o
+ .comment       0x0000000000000029       0x2a Link/string.o
+ .comment       0x0000000000000029       0x2a Link/system.o
+ .comment       0x0000000000000029       0x2a Link/write.o
+ .comment       0x0000000000000029       0x2a Link/vsprintf.o
+ .comment       0x0000000000000029       0x2a Link/printk.o
+ .comment       0x0000000000000029       0x2a Link/panic.o
+ .comment       0x0000000000000029       0x2a Link/traps.o
+ .comment       0x0000000000000029       0x2a Link/sched.o
+ .comment       0x0000000000000029       0x2a Link/exit.o
+ .comment       0x0000000000000029       0x2a Link/mktime.o
+ .comment       0x0000000000000029       0x2a Link/fork.o
+ .comment       0x0000000000000029       0x2a Link/signal.o
+ .comment       0x0000000000000029       0x2a Link/sys.o
+ .comment       0x0000000000000029       0x2a Link/api01.o
+ .comment       0x0000000000000029       0x2a Link/shell.o
+ .comment       0x0000000000000029       0x2a Link/hd.o
+ .comment       0x0000000000000029       0x2a Link/ll_rw_blk.o
+ .comment       0x0000000000000029       0x2a Link/console.o
+ .comment       0x0000000000000029       0x2a Link/tty_io.o
+ .comment       0x0000000000000029       0x2a Link/serial.o
+ .comment       0x0000000000000029       0x2a Link/tty_ioctl.o
+ .comment       0x0000000000000029       0x2a Link/bitmap.o
+ .comment       0x0000000000000029       0x2a Link/block_dev.o
+ .comment       0x0000000000000029       0x2a Link/buffer.o
+ .comment       0x0000000000000029       0x2a Link/char_dev.o
+ .comment       0x0000000000000029       0x2a Link/exec.o
+ .comment       0x0000000000000029       0x2a Link/fcntl.o
+ .comment       0x0000000000000029       0x2a Link/file_dev.o
+ .comment       0x0000000000000029       0x2a Link/file_table.o
+ .comment       0x0000000000000029       0x2a Link/inode.o
+ .comment       0x0000000000000029       0x2a Link/ioctl.o
+ .comment       0x0000000000000029       0x2a Link/namei.o
+ .comment       0x0000000000000029       0x2a Link/open.o
+ .comment       0x0000000000000029       0x2a Link/pipe.o
+ .comment       0x0000000000000029       0x2a Link/read_write.o
+ .comment       0x0000000000000029       0x2a Link/select.o
+ .comment       0x0000000000000029       0x2a Link/stat.o
+ .comment       0x0000000000000029       0x2a Link/super.o
+ .comment       0x0000000000000029       0x2a Link/truncate.o
+ .comment       0x0000000000000029       0x2a Link/memory.o
+ .comment       0x0000000000000029       0x2a Link/swap.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(system elf32-i386)

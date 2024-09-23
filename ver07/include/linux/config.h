@@ -1,0 +1,8 @@
+#ifndef _CONFIG_H_
+#define _CONFIG_H_
+
+#define FIRST_PART_M	1
+#define FIRST_PART_BLOCKNO (FIRST_PART_M * 1024)
+#define FIRST_PART_SECTNO (FIRST_PART_M * 2048)
+
+#endif
